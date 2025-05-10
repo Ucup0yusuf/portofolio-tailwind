@@ -11,6 +11,7 @@ hamburger.addEventListener("click", function () {
 if (navMenu) {
   navMenu.addEventListener("click", () => {
     navMenu.classList.add("hidden");
+    hamburger.classList.remove("hamburger-active");
   });
 }
 
